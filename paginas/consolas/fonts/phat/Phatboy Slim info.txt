@@ -1,0 +1,10 @@
+Phatboy Slim - Version 2.0 - May 2011
+
+- General Clean up of the font throughout.
+- Replaces the old version (v1.6 - July 2011)
+
+TracerTong
+www.tracertong.co.uk
+
+FAQ and Usage:
+www.tracertong.co.uk/ttf/faq

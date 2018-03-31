@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<title>Sport Shop</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+	<meta charset="utf-8">
+</head>
+<body>
+	
+	<div id = "encabezado"></div>
+
+
+
+	<div id = "nav">
+		<ul id="sub">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="adidas.html">Adidas</a></li>
+			<li><a href="nike.html">Nike</a></li>
+			<li><a href="puma.html">Puma</a></li>
+			<li><a class = "visited">Contactanos</a></li>
+		</ul>
+
+	</div>
+
+
+
+
+	<div id="main">
+		<h1>Sport Shop</h1>
+		<h2>Contactanos</h2>
+		<table>
+			<tbody><tr>
+				<th>Sucursal</th>
+				<th>Direccion</th>
+			</tr>
+			<tr>
+				<td>C.C Sambil</td>
+				<td>Av.Goajira etc.</td>
+			</tr>
+			<tr>
+				<td>C.C Lago Mall</td>
+				<td>Av.El Milagro</td>
+			</tr>
+		</tbody></table>
+		<br>
+		<fieldset>
+			<legend align="center">Envianos tu Comentario</legend>
+			<form action="" name="Comentarios">
+				<label for="Nombre">Nombre:</label>
+				<input type="text" name="Nombre" id="Nombre" required value="" placeholder="Ingrese su nombre aquí" maxlength="30">
+				<br><br>
+
+				<label for="Correo">Correo:</label>
+				<input type="email" name="Correo" id="Correo" value="" placeholder="Ingrese su correo aquí (Opcional)" size="40">
+				<br><br>
+
+				<label for="Cliente">Ha comprado en alguna de nuestras sucursales?:</label>
+				Si <input type="radio" name="Cliente" id="Cliente" required value="Si">
+				No <input type="radio" name="Cliente" id="Cliente" value="No">
+				<br><br>
+
+				<label for="RatePage">Puntua nuestra página</label>
+				<select name="RatePage" id="RatePage">
+					<option value="1">*</option>
+					<option value="2">**</option>
+					<option value="3">***</option>
+					<option value="4">****</option>
+					<option value="5">*****</option>
+
+				</select>
+
+				<br><br>
+
+				<label>Cual de estas marcas prefieres?</label><br>
+				<label>Adidas:</label>
+				<input type="checkbox" name="Marcas" id="Marcas" value="adidas">
+				<br>
+				<label>Nike:</label>
+				<input type="checkbox" name="Marcas" id="Marcas" value="nike">
+				<br>
+				<label>Puma:</label>
+				<input type="checkbox" name="Marcas" id="Marcas" value="puma">
+				<br><br>
+
+				<label for="Comentario">Ingresa tu comentario aqui</label><br>
+				<textarea name="Comentario" id="Comentario" required="" cols="30" rows="10"></textarea>
+				<br><br>
+				<input type="submit">
+				<input type="reset">
+			</form>
+
+		</fieldset>
+		
+	</div>
+
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+	<footer>Contactanos</footer>
+
+</body>
+</html>
