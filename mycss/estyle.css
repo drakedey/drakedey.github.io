@@ -2,6 +2,8 @@ body{
 	background-color:black;
 	color:white;
 	overflow-x: hidden;
+	max-width: 98.5%;
+	margin: auto;
 }
 
 #main{
@@ -35,11 +37,13 @@ body{
 }
 
 #works{
+	background-color: #4A9F9C;
 	color:white;
+	display: inline-block;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	font-weight: bold;
-	height: 100%;
+	height: 10%;
 	margin-top: 25px;
 	padding: 10% 25% 35% 25%;
 	text-align: center;
@@ -65,6 +69,11 @@ body{
 .card-img-top{
 	height: 200px;
 	width: 180px;
+}
+
+.card-text{
+	height: 60px;
+
 }
 
 .main_image{
@@ -154,6 +163,8 @@ body{
   text-shadow: 1px 1px 2px #f9903f; 
 }
 
+
+
 @media screen and (max-width: 1100px){
 	#main{
 		height: 500px;
@@ -161,6 +172,19 @@ body{
 
 	#about{
 		height: 600px;
+	}
+
+	#work{
+		height: 1000px;
+	}
+}
+
+@media screen and (max-width: 414px){
+	#img_perfil{
+		margin-bottom: 15px;
+		width: 200px;
+		height: 200px;
+
 	}
 }
 
@@ -177,15 +201,6 @@ body{
 		margin-bottom: 15px;
 		width: 150px;
 		height: 150px;
-
-	}
-}
-
-@media screen and (max-width: 414px){
-	#img_perfil{
-		margin-bottom: 15px;
-		width: 200px;
-		height: 200px;
 
 	}
 }
