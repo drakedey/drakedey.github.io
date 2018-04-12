@@ -6,16 +6,7 @@ body{
 	margin: auto;
 }
 
-#main{
-	color:white;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 35px;
-	height: 100%;
-	margin-top: 25px;
-	padding: 15% 25% 35% 25%;
-	text-align: center;
-	width: 100%;
-}
+
 
 #about{
 	color:white;
@@ -35,7 +26,19 @@ body{
 	display:block;
 	margin: auto;
 }
-
+#main{
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	height: 100%;
+	margin-top: 25px;
+	padding: 15% 25% 35% 25%;
+	text-align: center;
+	width: 100%;
+}
+#politics{
+	text-align: center;
+}
 #works{
 	background-color: #4A9F9C;
 	color:white;
@@ -43,7 +46,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	font-weight: bold;
-	height: 10%;
+	height: 100%;
 	margin-top: 25px;
 	padding: 10% 25% 35% 25%;
 	text-align: center;
@@ -101,7 +104,52 @@ body{
         height:500px;
 }
 
+@media screen and (max-width: 1179px){
+	#main{
+		height: 500px;
+	}
 
+	#about{
+		height: 700px;
+	}
+
+	#works{
+		padding: 5% 15% 25% 15%;
+
+	}
+}
+
+@media screen and (max-width: 767px){
+	#about{
+		height: 700px;
+	}
+}
+
+@media screen and (max-width: 446px){
+	#img_perfil{
+		margin-bottom: 15px;
+		width: 200px;
+		height: 200px;
+
+	}
+}
+
+@media screen and (max-width: 375px){
+	#main{
+		font-size: 10px;
+	}
+
+	#about{
+		font-size: 15px;
+	}
+
+	#img_perfil{
+		margin-bottom: 15px;
+		width: 150px;
+		height: 150px;
+
+	}
+}
 
 /*imported CSS*/
 .btn {
@@ -161,46 +209,4 @@ body{
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
   text-shadow: 1px 1px 2px #f9903f; 
-}
-
-
-
-@media screen and (max-width: 1100px){
-	#main{
-		height: 500px;
-	}
-
-	#about{
-		height: 600px;
-	}
-
-	#work{
-		height: 1000px;
-	}
-}
-
-@media screen and (max-width: 414px){
-	#img_perfil{
-		margin-bottom: 15px;
-		width: 200px;
-		height: 200px;
-
-	}
-}
-
-@media screen and (max-width: 375px){
-	#main{
-		font-size: 10px;
-	}
-
-	#about{
-		font-size: 15px;
-	}
-
-	#img_perfil{
-		margin-bottom: 15px;
-		width: 150px;
-		height: 150px;
-
-	}
 }
